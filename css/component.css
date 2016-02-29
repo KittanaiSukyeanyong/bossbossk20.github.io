@@ -12,8 +12,26 @@ body {
     overflow-x: hidden;
 }
 
-.container.hide-overflow { overflow: hidden }
 
+.container.hide-overflow { overflow: hidden }
+.lol{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.end{
+  font-size: 30px;
+  text-align: center;
+}
+.hbd{
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+}
+.joy{
+  font-size: 28px;
+  text-align: center;
+}
 .main {
     margin: 0 auto;
     max-width: 1200px;
@@ -294,13 +312,13 @@ body {
     z-index: 100;
     width: 80px;
     height: 100%;
-    box-shadow: inset 30px 0 40px -20px rgba(0, 0, 0, 0.1);
-    content: '';
+
+
 }
 
 .bb-custom-side:first-child::before {
     right: 0;
-    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.05), inset -30px 0 40px -20px rgba(0, 0, 0, 0.15);
+
 }
 
 .page-layout-1 h3,
@@ -314,59 +332,30 @@ body {
     -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
 }
-
 .page-layout-1 h3 {
     text-align: center;
     font-weight: 400;
     font-size: 3em;
     font-family: "Sacramento", serif;
 }
-
 .page-layout-1 h3 span {
-    display: block;
-    padding: 5px 0 15px;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    text-transform: uppercase;
-    font-size: 3em;
-    font-family: "Six Caps", sans-serif;
-    line-height: 1;
+    font-size: 20px;
 }
-
 .page-layout-1 p {
     padding: 0 10px;
     text-align: right;
     font-style: italic;
     font-family: "Cardo", serif;
 }
-
 .page-layout-2 {
-    background: -webkit-linear-gradient(left, #64696a 50%, white 50%);
-    background: linear-gradient(to right, #64696a 50%, white 50%);
 }
-
 .page-layout-2:first-child {
-    background: -webkit-linear-gradient(left, white 50%, #64696a 50%);
-    background: linear-gradient(to right, white 50%, #64696a 50%);
 }
-
 .page-layout-2 div {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    padding: 0 10% 10%;
-    width: 50%;
+
 }
-
-.page-layout-2 div:first-child { left: 0 }
-
-.page-layout-2:first-child div:last-child,
-.page-layout-2:last-child div:first-child { color: #fff }
-
 .page-layout-2 h3 {
-    margin: 0;
-    font-size: 6em;
-    font-family: "Cardo", serif;
+
 }
 
 .page-layout-3:last-child {
@@ -374,7 +363,7 @@ body {
     right: 0;
     width: 50%;
     height: 100%;
-    background: url(../img/portrait.jpg) no-repeat top left;
+    background: url(../img/ya.gif) no-repeat top left;
     background-size: cover;
 }
 
@@ -484,9 +473,9 @@ body {
 .no-csstransforms3d .book[data-book="book-1"],
 .no-js .book[data-book="book-1"],
 .book[data-book="book-1"] .front {
-    background: url(../img/cover1.svg);
-    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover1.svg), #009bdb;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/cover1.svg), #009bdb;
+    background: url(../img/testya.JPG);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/testya.JPG), #009bdb;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1) 0%, rgba(211, 211, 211, 0.1) 5%, rgba(255, 255, 255, 0.15) 5%, rgba(255, 255, 255, 0.1) 9%, rgba(0, 0, 0, 0.01) 100%), url(../img/test.JPG), #009bdb;
 }
 
 .book[data-book="book-1"] .inner { border-color: #009bdb }
@@ -854,74 +843,74 @@ body {
 }
 
 /* Animations */
-@-webkit-keyframes openSmallBook { 
+@-webkit-keyframes openSmallBook {
     0% { }
     55%, 100% { -webkit-transform: rotateY(-180deg) }
 }
-@keyframes openSmallBook { 
+@keyframes openSmallBook {
     0% { }
     55%, 100% { -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg); }
 }
-@-webkit-keyframes closeSmallBook { 
+@-webkit-keyframes closeSmallBook {
     0%, 45% { -webkit-transform: rotateY(-180deg) }
     100% { -webkit-transform: rotateY(0deg) }
 }
-@keyframes closeSmallBook { 
+@keyframes closeSmallBook {
     0%, 45% { -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg); }
     100% { -webkit-transform: rotateY(0deg); transform: rotateY(0deg); }
 }
-@-webkit-keyframes scaleUpSmallBook { 
+@-webkit-keyframes scaleUpSmallBook {
     0% { }
     85%, 100% { -webkit-transform: scale(1.4) }
 }
-@keyframes scaleUpSmallBook { 
+@keyframes scaleUpSmallBook {
     0% { }
     85%, 100% { -webkit-transform: scale(1.4); transform: scale(1.4); }
 }
-@-webkit-keyframes scaleDownSmallBook { 
+@-webkit-keyframes scaleDownSmallBook {
     0%, 15% { -webkit-transform: scale(1.4) }
     100% { -webkit-transform: scale(1) }
 }
-@keyframes scaleDownSmallBook { 
+@keyframes scaleDownSmallBook {
     0%, 15% { -webkit-transform: scale(1.4); transform: scale(1.4); }
     100% { -webkit-transform: scale(1); transform: scale(1); }
 }
-@-webkit-keyframes openBigBook { 
+@-webkit-keyframes openBigBook {
     0% { }
     45% { opacity: 0; -webkit-transform: scale(0.95); }
     85% { opacity: 1 }
     100% { opacity: 1; -webkit-transform: scale(1); }
 }
-@keyframes openBigBook { 
+@keyframes openBigBook {
     0% { }
     45% { opacity: 0; -webkit-transform: scale(0.95); transform: scale(0.95); }
     85% { opacity: 1 }
     100% { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
 }
-@-webkit-keyframes closeBigBook { 
+@-webkit-keyframes closeBigBook {
     0%, 15% { opacity: 1; -webkit-transform: scale(1); }
     55%, 100% { opacity: 0; -webkit-transform: scale(0.95); }
 }
-@keyframes closeBigBook { 
+@keyframes closeBigBook {
     0%, 15% { opacity: 1; -webkit-transform: scale(1); transform: scale(1); }
     55%, 100% { opacity: 0; -webkit-transform: scale(0.95); transform: scale(0.95); }
 }
 
 /* Media Queries */
 
-@media screen and (max-width: 68.75em) { 
+@media screen and (max-width: 68.75em) {
   .bb-custom-wrapper { font-size: 75% }
 
   .page-layout-3 h3 { font-size: 9em }
 }
 
-@media screen and (max-width: 41.375em) { 
+@media screen and (max-width: 41.375em) {
   .bb-custom-wrapper { font-size: 60% }
 
   .page-layout-3 h3 { font-size: 6em }
 }
 
-@media screen and (max-width: 29.75em) { 
+@media screen and (max-width: 29.75em) {
   .bb-custom-wrapper { font-size: 40% }
 
   .page-layout-2 div {
@@ -944,7 +933,7 @@ body {
   }
 }
 
-@media screen and (max-width: 26.3125em) { 
+@media screen and (max-width: 26.3125em) {
   .details-open .book {
       -webkit-transform: rotateY(90deg);
       transform: rotateY(90deg);

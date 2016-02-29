@@ -104,6 +104,7 @@ a:hover, a:focus {
 	content: "\e004";
 }
 
+
 .related {
 	margin-top: 5em;
 	color: #fff;
@@ -133,11 +134,13 @@ a:hover, a:focus {
 .related a img {
 	max-width: 100%;
 }
-
-.related a h3 {
-	font-weight: 300;
-	margin-top: 0.15em;
-	color: #fff;
+.cir{
+	border-radius: 50%;
+}
+.ya{
+	text-align: center;
+	font-size: 35px;
+	color: rgb(233, 31, 207);
 }
 
 @media screen and (max-width: 40em) {
