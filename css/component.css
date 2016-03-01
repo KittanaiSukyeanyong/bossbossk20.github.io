@@ -11,7 +11,9 @@ body {
     overflow: scroll;
     overflow-x: hidden;
 }
-
+.press{
+  font-size: 25px;
+}
 
 .container.hide-overflow { overflow: hidden }
 .lol{
