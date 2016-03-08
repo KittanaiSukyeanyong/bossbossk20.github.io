@@ -1,0 +1,21 @@
+{
+  "name": "bossbossk20.github.io",
+  "homepage": "https://github.com/bossbossk20/bossbossk20.github.io",
+  "authors": [
+    "thanawat <tha_chookes@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
