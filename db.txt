@@ -1,7 +1,12 @@
 Create database Product;
+
 use Product;
+
 Create table ProductType (ProductTypeID integer primary key,ProductTypeName varchar(50));
+
 Create table Product(ProductTypeID integer references ProductType(ProductTypeID),ProductID integer primary key,ProductName varchar(50),Amount integer,OrderPoint integer,Price double);
+
+------------------------------------------------------------
 
 insert into ProductType value (1,'Washing machine');
 
