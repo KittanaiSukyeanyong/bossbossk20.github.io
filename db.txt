@@ -1,2 +1,3 @@
-create database Product;
-Create 
+Create database Product;
+use Product;
+Create table Product (ProductTypeID integer primary key,ProductTypeName varchar(50));
